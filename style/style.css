@@ -1,0 +1,245 @@
+/* header */
+.header{
+     background: #F1F1F1 center/cover no-repeat;
+    padding: 0 30px;
+    max-height: 770px;
+    padding-top:46px ;
+}
+.section{
+
+    margin-left: 185px;
+    margin-right: 185px;
+}
+.section-two{
+    margin-left: 185px;
+    margin-right: 185px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content-two{
+    display: flex;
+    column-gap: 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nav-item{
+    color: #000000;
+    opacity: 1;
+}
+.nav-item:hover{
+    color: #18b5a4;
+    transition: 0.15s;
+}
+.home{
+    color: #606060;
+}
+.header-txt{
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 200px;
+}
+.header-txt-two{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+}
+.section-two{
+display: flex;justify-content: space-between;
+}
+.hero{
+margin-top: 76px;
+}
+.adv{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    margin-right: px;
+    column-gap: 50px;
+    padding: 0 30px;
+    margin-left: 185px;
+    margin-right: 185px;
+
+}
+.adv-txt{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+    margin-top: 30px;
+}
+.adv-txt-two{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 10px;
+}
+.Portfolio{
+    padding: 0 30px;
+    margin-top: 180px;
+}
+.photo{
+    margin-top: 70px;
+}
+
+.Portfolio-p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.Portfolio-txt{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+  color: #070707;
+}
+.Portfolio-p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+   color: #070707;
+    margin-top: 40px;
+}
+.photo-two{
+    margin-top: 90px;
+}
+.footer-contact{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 180px;
+    color: #070707;
+
+}
+.footer-txt{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    margin-top: 40px;
+}
+.button{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #070707;
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 60px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+.button:hover{
+    padding: 0px 50px;
+    background-color: #18b5a4;
+}
+.logo{
+    column-gap: 61px;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #828282;
+    margin-top: 40px;
+}
+.section-two{
+    animation-name: circle;
+    animation-duration: 700ms;
+    position: relative;
+    animation-direction: reverse;
+}
+@keyframes circle{
+
+    0%{
+        right: 0%;
+    }
+    50%{
+        border-radius: 0%;
+    }
+    100%{
+        right: 50%;
+    }
+}
+.content-two{
+    animation-name: circle;
+    animation-duration: 700ms;
+    position: relative;
+    animation-direction: reverse;
+}
+.kelvin{
+    animation-name: circle;
+    animation-duration: 700ms;
+    position: relative;
+    animation-direction: reverse;
+}
+.adv-two{
+    animation-name: circle;
+    animation-duration: 700ms;
+    position: relative;
+    animation-direction: reverse;
+}
+
